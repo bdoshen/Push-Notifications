@@ -1,10 +1,20 @@
-# PushNotificationsTest
+# PushNotifications
+
+This project was built to send native notifications to the device accessing this site.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Since we are using a service worker to send messages natively, run the following commands in a terminal window after making any changes. The app will NOT automatically reload if you change any of the source files.
+
+ng build --prod
+http-server -p 8080 -c-1 dist/PushNotificationsTest
+
+Run the following commands in a different terminal window. These commands are changing the directory to the server folder within the app and running the server.js file. The server will run on port 3000.
+
+cd server
+node server.js
 
 ## Code scaffolding
 
