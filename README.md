@@ -7,8 +7,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Resources
 
 https://blog.angular-university.io/angular-push-notifications/
+
 chrome://flags/#enable-experimental-web-platform-features
+
 https://malcoded.com/posts/angular-push-notifications/
+
 https://angular.io/guide/service-worker-getting-started
 
 ## Development server
