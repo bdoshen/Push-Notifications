@@ -4,6 +4,13 @@ This project was built to send native notifications to the device accessing this
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
 
+## Resources
+
+https://blog.angular-university.io/angular-push-notifications/
+chrome://flags/#enable-experimental-web-platform-features
+https://malcoded.com/posts/angular-push-notifications/
+https://angular.io/guide/service-worker-getting-started
+
 ## Development server
 
 Since we are using a service worker to send messages natively, run the following commands in a terminal window after making any changes. The app will NOT automatically reload if you change any of the source files.
