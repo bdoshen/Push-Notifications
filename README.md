@@ -8,12 +8,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Since we are using a service worker to send messages natively, run the following commands in a terminal window after making any changes. The app will NOT automatically reload if you change any of the source files.
 
+npm install
+
 ng build --prod
+
 http-server -p 8080 -c-1 dist/PushNotificationsTest
 
 Run the following commands in a different terminal window. These commands are changing the directory to the server folder within the app and running the server.js file. The server will run on port 3000.
 
+npm install
+
 cd server
+
 node server.js
 
 ## Code scaffolding
