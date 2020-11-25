@@ -6,6 +6,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Resources
 
+These resources helped me successfully create this application.
+
 https://blog.angular-university.io/angular-push-notifications/
 
 chrome://flags/#enable-experimental-web-platform-features
